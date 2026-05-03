@@ -189,5 +189,15 @@
   body {
     @apply bg-sidebar text-foreground dark:bg-background;
     letter-spacing: var(--tracking-normal);
+    margin: 0;
+    padding: 0 10px;
+    overflow-x: hidden;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  * {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
   }
 }
